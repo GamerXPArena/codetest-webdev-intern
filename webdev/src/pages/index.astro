@@ -1,0 +1,30 @@
+---
+import Layout from '../components/Layout.astro';
+import NavBar from '../components/NavBar.vue';
+import Header from '../components/Header.vue';
+import Footer from '../components/Footer.vue';
+import ActionBox from '../components/ActionBox.vue';
+
+// this is your component!
+import WidgetSlider from '../components/WidgetSlider.vue';
+---
+
+<Layout title="WebDev Code Test">
+	<main>
+        <section class="w-full text-gray-700 bg-white">
+            <div class="px-8 mx-auto max-w-7xl lg:px-16">
+                <NavBar client:load />
+                <Header client:load />
+            </div>
+        </section>
+        <section class="relative w-full bg-white">
+            <WidgetSlider client:visible />
+        </section>
+        <section class="bg-white">
+            <Footer client:load />
+        </section>
+	</main>
+</Layout>
+
+<style>
+</style>
