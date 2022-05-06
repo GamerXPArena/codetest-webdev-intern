@@ -32,6 +32,12 @@ Para o CSS fique à vontade para usar o CSS “puro” ou o TailwindCSS ambas as
 
 <br>
 
+Clone o projeto, abra com o editor de sua preferência (recomendamos o VSCode). Você vai precisar ter o NodeJS instalado em sua máquina.
+
+Após isto, rode o comando “npm i” dentro da pasta do projeto para instalar as dependências e depois rode o comando “npm run dev” para rodar o site de forma local.
+
+<br>
+
 ___
 
 <br>
