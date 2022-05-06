@@ -22,7 +22,7 @@ ___
 
 <br>
 
-Neste projeto tem um componente escrito em Vue.js ("WidgetScroller.vue") que você precisará atualizar para implementar o feature descrito abaixo:
+Neste projeto tem um componente escrito em Vue.js ("WidgetSlider.vue") que você precisará atualizar para implementar o feature descrito abaixo:
 
 ## Desafio: 
 
